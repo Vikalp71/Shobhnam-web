@@ -6,7 +6,7 @@ function About() {
     <div className="about-container">
 
       {/* Heading */}
-      <h1 className="about-heading">शोभनम </h1>
+      <h1 className="about-heading">शोभनम ऐप - Play Store डिस्क्रिप्शन</h1>
 
       <p>भजन संध्या, जागरण व शास्त्रीय संगीत कलाकार बुक करें। भक्तिमय आयोजन अब आसान।</p>
 
