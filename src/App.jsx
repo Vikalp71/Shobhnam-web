@@ -22,10 +22,7 @@ function App() {
           <ServiceDetails />
           <Testimonials />
           <Artists />
-          {/* <RecentBookings /> */}
-
-          
-          
+          {/* <RecentBookings /> */}          
           <Footer />
         </>
       } />
@@ -39,7 +36,7 @@ function App() {
       <Route path="/contact" element={
         <>
           <Header />
-          <Contact />
+          <Contact />  // Contact 
           <Footer />
         </>
       } />
