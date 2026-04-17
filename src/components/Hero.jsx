@@ -19,12 +19,6 @@ function Hero() {
           dharmik aur sanskritik programs ke liye professional artists aur pandit
           easily book kar sakte hain.
         </p>
-        <p>
-          Humare platform par aapko trained aur experienced artists milenge jo
-          aapke event ko shobhnam aur spiritual banayenge. Chahe aap apne ghar
-          me Ramleela karvana chahte hain ya kisi mandir me Sunderkand paath
-          organize karna chahte hain, hum aapko best artists provide karte hain.
-        </p>
 
         <p>
           Agar aap apne ghar, mandir, society, ya kisi event me Ramleela karvana
@@ -33,13 +27,6 @@ function Hero() {
           Bhajan Sandhya aur Bhagwat Katha ke liye experienced artists aur
           kathavachak provide kiye jate hain.
         </p>
-        <p>
-            Rudrabhishek aur anya pooja paath ke liye aap humse directly contact
-          kar sakte hain. Hum aapko trusted pandit aur artist provide karte hain
-          jo aapke event ko spiritual aur memorable banate hain.
-        </p>
-
-
 
         <p>
           Rudrabhishek aur anya pooja paath ke liye aap humse directly contact

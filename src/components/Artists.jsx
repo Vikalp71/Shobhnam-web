@@ -1,14 +1,14 @@
 import './Artists.css';
 
 const artists = [
-  { img: 'src/images/Ramleela.png', name: 'Ram Narayan Mishra', service: 'Ramleela' },
-  { img: 'src/images/Sunderkand.jpeg', name: 'Pandit Anil Bajpai', service: 'Sunderkand' },
-  { img: 'src/images/bhagwat.jpeg', name: 'Pandit Anil Dubey', service: 'Bhagwat Katha' },
-  { img: 'src/images/Bhajan.png', name: 'Pandit Malay Pandey', service: 'Bhajan Sandhya' },
-  { img: 'src/images/Rudrabhishek copy.jpeg', name: 'Pandit Rajan Bajpai', service: 'Rudrabhishek' },
-  { img: 'src/images/bhagwat.jpeg', name: 'Pandit Rishabh', service: 'Bhagwat Katha' },
-  { img: 'src/images/Sunderkand.jpeg', name: 'Pandit Anil Bajpai', service: 'Sunderkand' },
-  { img: 'src/images/Ramleela.png', name: 'Pandit Ram Narayan Mishra', service: 'Ramleela' },
+  { img: '/images/artist1.png', name: 'Ramnath Dubey', service: 'Sunderkand' },
+  { img: 'https://i.pravatar.cc/200?img=5', name: 'Ramnath Dubey', service: 'Bhajan Sandhya' },
+  { img: 'https://i.pravatar.cc/200?img=7', name: 'Ramnath Dubey', service: 'Ramleela' },
+  { img: 'https://i.pravatar.cc/200?img=8', name: 'Suresh Sharma', service: 'Bhagwat Katha' },
+  { img: 'https://i.pravatar.cc/200?img=9', name: 'Vikram Singh', service: 'Rudrabhishek' },
+  { img: 'https://i.pravatar.cc/200?img=10', name: 'Anjali Gupta', service: 'Bhajan Sandhya' },
+  { img: 'https://i.pravatar.cc/200?img=11', name: 'Rajesh Kumar', service: 'Sunderkand' },
+  { img: 'https://i.pravatar.cc/200?img=12', name: 'Priya Patel', service: 'Ramleela' },
 ];
 
 const scrollItems = [...artists, ...artists];
