@@ -23,13 +23,16 @@ function App() {
           <Testimonials />
           <Artists />
           {/* <RecentBookings /> */}
+
+          
+          
           <Footer />
         </>
       } />
       <Route path="/about" element={
         <>
           <Header />
-          <Aboutus />
+          <Aboutus /> 
           <Footer />
         </>
       } />
