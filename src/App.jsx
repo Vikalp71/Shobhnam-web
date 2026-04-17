@@ -22,7 +22,7 @@ function App() {
           <ServiceDetails />
           <Testimonials />
           <Artists />
-          {/* <RecentBookings /> */}          
+       
           <Footer />
         </>
       } />
