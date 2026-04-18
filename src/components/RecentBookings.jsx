@@ -7,7 +7,7 @@ import LaxmanImg from '../images/Laxman.jpeg';
 
 const bookings = [
 
-  { img: ParshuramImg, name: 'Ram Narayan Mishra', service: 'Parshram' },
+  { img: ParshuramImg, name: 'Ram Narayan Mishra', service: 'Parshuram' },
   { img: RamImg, name: 'Saurabh Awasthi', service: 'Ram' },
   { img: LaxmanImg, name: 'Abhishek Tripathi', service: 'Laxman' },
   { img: ArvindImg, name: 'Arvind Dwivedi', service: 'Bhagwat Katha' },
