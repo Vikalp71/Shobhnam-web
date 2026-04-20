@@ -11,6 +11,7 @@ const bookings = [
   { img: RamImg, name: 'Saurabh Awasthi', service: 'Ram' },
   { img: LaxmanImg, name: 'Abhishek Tripathi', service: 'Laxman' },
   { img: ArvindImg, name: 'Arvind Dwivedi', service: 'Bhagwat Katha' },
+ 
   // { img: lax, name: 'Ram Narayan Mishra', service: 'Ramleela' },
 
 ];

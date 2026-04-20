@@ -1,8 +1,9 @@
 footer {
-  background: #111;
+  background: linear-gradient(135deg, #111, #333);
   color: white;
   padding: 40px 60px;
   margin-top: 40px;
+  animation: fadeIn 1s ease-out 1.6s both;
 }
 
 .footer-container {
@@ -91,5 +92,14 @@ footer {
 
   .footer-section img {
     width: 140px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

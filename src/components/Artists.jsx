@@ -6,17 +6,17 @@ import BhajanImg from '../images/Bhajan.png';
 import RudrabhishekImg from '../images/Rudrabhishek copy.jpg';
 
 const artists = [
-  { img: RamleelaImg, name: 'Ram Narayan Mishra', service: 'Ramleela' },
-  { img: SunderkandImg, name: 'Pandit Anil Bajpai', service: 'Sunderkand' },
-  { img: BhagwatImg, name: 'Pandit Anil Dubey', service: 'Bhagwat Katha' },
-  { img: BhajanImg, name: 'Pandit Malay Pandey', service: 'Bhajan Sandhya' },
-  { img: RudrabhishekImg, name: 'Pandit Rajan Bajpai', service: 'Rudrabhishek' },
-  { img: BhagwatImg, name: 'Pandit Rishabh', service: 'Bhagwat Katha' },
-  { img: SunderkandImg, name: 'Pandit Anil Bajpai', service: 'Sunderkand' },
-  { img: RamleelaImg, name: 'Pandit Ram Narayan Mishra', service: 'Ramleela' },
+  { img: RamleelaImg, service: 'Ramleela' },
+  { img: SunderkandImg, service: 'Sunderkand' },
+  { img: BhagwatImg, service: 'Bhagwat Katha' },
+  { img: BhajanImg, service: 'Bhajan Sandhya' },
+  { img: RudrabhishekImg, service: 'Rudrabhishek' },
+  { img: BhagwatImg, service: 'Bhagwat Katha' },
+  { img: SunderkandImg, service: 'Sunderkand' },
+  { img: RamleelaImg, service: 'Ramleela' },
 ];
 
-const scrollItems = [...artists, ...artists];
+const scrollItems = [...artists, ...artists, ...artists, ...artists];
 
 function Artists() {
   return (
@@ -26,9 +26,9 @@ function Artists() {
         <div className="scroll-wrapper">
           {scrollItems.map((artist, index) => (
             <div className="artist-card" key={index}>
-              <img src={artist.img} alt={artist.name} />
-              <h4>{artist.name}</h4>
-              <p>{artist.service}</p> 
+              <img src={artist.img} alt={artist.service} />
+              <h4>{artist.service}</h4>
+              {/* <p>Professional Artist</p>  */}
             </div>
           ))}
         </div>

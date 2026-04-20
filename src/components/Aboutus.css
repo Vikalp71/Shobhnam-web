@@ -1,6 +1,7 @@
 .about-container {
   padding: 50px;
-  background: #f9f9f9;
+  background: linear-gradient(135deg, #f9f9f9, #e8f4f8);
+  animation: fadeIn 1s ease-out 0.4s both;
 }
 
 .about-heading {
@@ -15,6 +16,12 @@
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.about-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255, 119, 34, 0.1);
 }
 
 .about-section h2 {
@@ -39,4 +46,13 @@
   text-align: center;
   margin-top: 30px;
   font-weight: 500;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
