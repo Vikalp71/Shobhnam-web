@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
   text-align: center;
   padding: 150px 0px;
   background: linear-gradient(rgba(255, 119, 34, 0.7), rgba(255, 119, 34, 0.7)), url('/images/ramleela.jpg');
@@ -52,4 +52,174 @@
     font-size: 14px;
     padding: 0 10px;
   }
+} */
+
+
+
+
+.hero {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  background: url("/images/ramleela.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* Dark Overlay */
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(255, 119, 34, 0.5)
+  );
+}
+
+/* Content */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  animation: fadeUp 1.2s ease;
+}
+
+.hero-tag {
+  background: rgba(255,255,255,0.2);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.hero h1 {
+  font-size: 55px;
+  line-height: 1.3;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #ffb347;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.book-btn {
+  background: #ff7722;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  background: white;
+  color: #ff7722;
+}
+
+.playstore-btn {
+  width: 170px;
+  transition: 0.3s;
+}
+
+.playstore-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Stats */
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.hero-stats h3 {
+  font-size: 32px;
+  color: #ffb347;
+}
+
+.hero-stats p {
+  font-size: 14px;
+}
+
+/* Animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero-subtitle {
+    font-size: 15px;
+  }
+
+  .hero-stats {
+    gap: 20px;
+  }
+
+  .hero-stats h3 {
+    font-size: 24px;
+  }
+
+  .playstore-btn {
+    width: 140px;
+  }
+}
+
+
+
+.coming-soon-badge {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  padding: 14px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.3);
 }
