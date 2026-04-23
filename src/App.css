@@ -35,3 +35,21 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #e65c00;
 }
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
