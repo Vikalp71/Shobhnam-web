@@ -17,7 +17,7 @@ const bookings = [
 ];
 
 const duplicateBookings = [
-  { img: RamImg, name: 'Ram Narayan', service: 'Parshuram' },
+  { img: RamImg, name: 'Saurabh Awasthi', service: 'Ram' },
   { img: LaxmanImg, name: 'Abhishek Tripathi', service: 'Laxman' },
   { img: ArvindImg, name: 'Arvind Dwivedi', service: 'Bhagwat Katha' },
   { img: ParshuramImg, name: 'Ram Narayan ', service: 'Parshuram' },
