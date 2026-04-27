@@ -48,7 +48,7 @@ function Footer() {
 
 
         <div className="footer-section">
-          <h3>USER</h3>
+          <h3>Information</h3>
 
           <ul className="footer-info">
             {/* <li>
