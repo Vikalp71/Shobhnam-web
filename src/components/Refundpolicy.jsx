@@ -1,4 +1,4 @@
-import "./RefundPolicy.css";
+import "./Refundpolicy.css";
 
 function RefundPolicy() {
   return (
