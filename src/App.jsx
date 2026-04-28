@@ -12,6 +12,7 @@ import PrivacyPolicy from './components/Privacypolicy';
 import Disclaimer from './components/Disclaimer';
 import TermsConditions from './components/Terms&condn';
 import RefundPolicy from './components/Refundpolicy';
+import Accountdeletion from './components/Accountdeletion';
 
 
 import { Routes, Route } from "react-router-dom";
@@ -101,6 +102,17 @@ function App() {
           <>
             <Header />
             <RefundPolicy />
+            <Footer />
+          </>
+        }
+      />
+
+        <Route
+        path="/account-deletion"
+        element={
+          <>
+            <Header />
+            <Accountdeletion />
             <Footer />
           </>
         }

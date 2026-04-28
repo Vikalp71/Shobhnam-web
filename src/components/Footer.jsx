@@ -79,6 +79,15 @@ function Footer() {
 
 
             </li>
+
+              <li>
+              <Link to="/account-deletion" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                Account Deletion Policy
+              </Link>
+
+
+            </li>
+
           </ul>
         </div>
 

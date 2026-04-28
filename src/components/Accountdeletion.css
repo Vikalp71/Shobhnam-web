@@ -1,0 +1,66 @@
+.account-deletion {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #fff8f2, #f9f9f9);
+  min-height: 100vh;
+}
+
+.account-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.account-container h1 {
+  text-align: center;
+  color: #FF7722;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.delete-card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+}
+
+.delete-card h2 {
+  color: #FF7722;
+  margin-bottom: 15px;
+}
+
+.delete-card ul {
+  padding-left: 20px;
+}
+
+.delete-card li {
+  margin-bottom: 10px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.delete-card p {
+  color: #444;
+  line-height: 1.7;
+}
+
+@media(max-width:768px){
+  .account-container h1{
+    font-size:28px;
+  }
+
+  .intro{
+    font-size:16px;
+  }
+
+  .delete-card{
+    padding:20px;
+  }
+}
