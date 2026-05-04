@@ -50,6 +50,10 @@ function Testimonials() {
         <div className="testimonial-scroll">
           {scrollItems.map((item, index) => (
             <div className="testimonial-card" key={index}>
+              
+              {/* ✅ NEW BADGE */}
+              <div className="badge">✔ Verified Booking</div>
+
               <FaQuoteLeft className="quote-icon" />
 
               <div className="stars">

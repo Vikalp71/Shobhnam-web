@@ -45,6 +45,10 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  padding-top: 84px;
+}
+
 #root {
   width: 100%;
   overflow-x: hidden;
@@ -52,4 +56,13 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+
+:root {
+  --primary: #e65c00;
+  --secondary: #ff9a4d;
+  --dark: #1a1a1a;
+  --light: #f9f9f9;
+  --accent: #ffd700;
 }

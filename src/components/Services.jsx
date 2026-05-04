@@ -52,7 +52,7 @@ function Services() {
             <div className="service-content">
               <h3>{service.name}</h3>
               <p>{service.desc}</p>
-              <button>Book Now</button>
+              {/* <button>Book Now</button> */}
             </div>
           </div>
         ))}
