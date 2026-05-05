@@ -1,19 +1,14 @@
 import './Artists.css';
-import RamleelaImg from '../images/parshuram.png';
-import SunderkandImg from '../images/sunderknd.png';
-import BhagwatImg from '../images/katha.png';
-import BhajanImg from '../images/sandhya.png';
-import RudrabhishekImg from '../images/abhishek.png';
 
 const artists = [
-  { img: RamleelaImg, service: 'Ramleela' },
-  { img: SunderkandImg, service: 'Sunderkand' },
-  { img: BhagwatImg, service: 'Bhagwat Katha' },
-  { img: BhajanImg, service: 'Bhajan Sandhya' },
-  { img: RudrabhishekImg, service: 'Rudrabhishek' },
-  { img: BhagwatImg, service: 'Bhagwat Katha' },
-  { img: SunderkandImg, service: 'Sunderkand' },
-  { img: RamleelaImg, service: 'Ramleela' },
+  { img: '/images/parshuram.png', service: 'Ramleela' },
+  { img: '/images/sunderknd.png', service: 'Sunderkand' },
+  { img: '/images/katha.png', service: 'Bhagwat Katha' },
+  { img: '/images/sandhya.png', service: 'Bhajan Sandhya' },
+  { img: '/images/abhishek.png', service: 'Rudrabhishek' },
+  { img: '/images/katha.png', service: 'Bhagwat Katha' },
+  { img: '/images/sunderknd.png', service: 'Sunderkand' },
+  { img: '/images/parshuram.png', service: 'Ramleela' },
 ];
 
 // const scrollItems = [...artists, ...artists];

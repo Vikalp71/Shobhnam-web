@@ -1,26 +1,20 @@
 import './RecentBookings.css';
-import ArvindImg from '../images/Arvind.jpeg';
-import ParshuramImg from '../images/Parshuram.jpeg';
-import RamImg from '../images/Ram.jpeg';
-import LaxmanImg from '../images/Laxman.jpeg';
-// import lax from '../images/Lax.jpeg';
 
 const bookings = [
-
-  { img: ParshuramImg, name: 'Ram Narayan Mishra', service: 'Parshuram' },
-  { img: RamImg, name: 'Saurabh Awasthi', service: 'Ram' },
-  { img: LaxmanImg, name: 'Abhishek Tripathi', service: 'Laxman' },
-  { img: ArvindImg, name: 'Arvind Dwivedi', service: 'Bhagwat Katha' },
+  { img: '/images/Parshuram.jpeg', name: 'Ram Narayan Mishra', service: 'Parshuram' },
+  { img: '/images/Ram.jpeg', name: 'Saurabh Awasthi', service: 'Ram' },
+  { img: '/images/Laxman.jpeg', name: 'Abhishek Tripathi', service: 'Laxman' },
+  { img: '/images/Arvind.jpeg', name: 'Arvind Dwivedi', service: 'Bhagwat Katha' },
  
   // { img: lax, name: 'Ram Narayan Mishra', service: 'Ramleela' },
 
 ];
 
 const duplicateBookings = [
-  { img: RamImg, name: 'Saurabh Awasthi', service: 'Ram' },
-  { img: LaxmanImg, name: 'Abhishek Tripathi', service: 'Laxman' },
-  { img: ArvindImg, name: 'Arvind Dwivedi', service: 'Bhagwat Katha' },
-  { img: ParshuramImg, name: 'Ram Narayan ', service: 'Parshuram' },
+  { img: '/images/Ram.jpeg', name: 'Saurabh Awasthi', service: 'Ram' },
+  { img: '/images/Laxman.jpeg', name: 'Abhishek Tripathi', service: 'Laxman' },
+  { img: '/images/Arvind.jpeg', name: 'Arvind Dwivedi', service: 'Bhagwat Katha' },
+  { img: '/images/Parshuram.jpeg', name: 'Ram Narayan ', service: 'Parshuram' },
 
 ];
 

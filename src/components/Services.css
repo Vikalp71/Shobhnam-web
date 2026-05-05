@@ -110,28 +110,28 @@
 
 
 .ramleela-service {
-  background-image: url("src/images/ramleela copy.png");
+  background-image: url("/images/leela.png");
 }
 
 .sunderkand-service {
-  background-image: url("src/images/Sunderkand.png");
+  background-image: url("/images/Sunderkand.png");
 }
 
 .bhajan-service {
-  background-image: url("src/images/bhajan copy.png");
+  background-image: url("/images/bhajansandhya.png");
 }
 
 
 .bhagwat-service {
-  background-image: url("src/images/bhagwat.png");
+  background-image: url("/images/bhagwat.png");
 }
 
 .rudrabhishek-service {
-  background-image: url("src/images/Rudrabhishek.png");
+  background-image: url("/images/Rudrabhishek.png");
 }
 
 .other-service {
-  background-image: url("src/images/Other.jpg");
+  background-image: url("/images/other.png");
 }
 
 
