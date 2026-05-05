@@ -6,7 +6,11 @@
   align-items: center;
   text-align: center;
   padding: 120px 20px 0 20px;
-  background: url("/images/ramleela.jpg") no-repeat center/cover;
+  /* background: url("src/images/background.png") no-repeat center/cover; */
+  background-image: url("/images/ramleela.jpg");
+  background-repeat: no-repeat;
+  background-position: center top; /* 👈 KEY */
+  background-size: cover;
   color: white;
   overflow: hidden;
 }
@@ -16,11 +20,11 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
+  /* background: linear-gradient(
     120deg,
     rgba(0, 0, 0, 0.75),
     rgba(230, 92, 0, 0.35)
-  );
+  ); */
 }
 
 /* 🔥 Glow Effect (Depth Add) */
@@ -133,11 +137,19 @@
 
 
 /* 📱 Mobile */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero {
     min-height: auto;
     padding: 80px 20px 40px;
+  } */
+
+
+  @media (max-width: 768px) {
+  .hero {
+    background-position: center top; /* 👈 face / main part upar dikhe */
+    background-size: cover; /* full premium feel */
   }
+
 
   .hero h1 {
     font-size: 28px;

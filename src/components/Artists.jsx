@@ -1,9 +1,9 @@
 import './Artists.css';
-import RamleelaImg from '../images/Ramleela.png';
-import SunderkandImg from '../images/Sunderkand.jpeg';
-import BhagwatImg from '../images/bhagwat.jpeg';
-import BhajanImg from '../images/Bhajan.png';
-import RudrabhishekImg from '../images/Rudrabhishek copy.jpg';
+import RamleelaImg from '../images/parshuram.png';
+import SunderkandImg from '../images/sunderknd.png';
+import BhagwatImg from '../images/katha.png';
+import BhajanImg from '../images/sandhya.png';
+import RudrabhishekImg from '../images/abhishek.png';
 
 const artists = [
   { img: RamleelaImg, service: 'Ramleela' },
