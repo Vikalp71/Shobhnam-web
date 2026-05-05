@@ -28,7 +28,7 @@ function RecentBookings() {
         <div className="scroll-wrapper orders-scroll">
           {scrollItems.map((item, index) => (
             <div className="artist-card" key={index}>
-              <img src={item.img} alt={item.name} />
+              <img src={item.img} alt={item.name} loading="lazy" decoding="async" />
               <h4>{item.name}</h4>
               <p>{item.service}</p>
             </div>

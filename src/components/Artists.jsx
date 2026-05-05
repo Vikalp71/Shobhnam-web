@@ -29,7 +29,7 @@ function Artists() {
         <div className="scroll-wrapper">
           {scrollItems.map((artist, index) => (
             <div className="artist-card" key={index}>
-              <img src={artist.img} alt={artist.service} />
+              <img src={artist.img} alt={artist.service} loading="lazy" decoding="async" />
 
               {/* Overlay */}
               <div className="artist-overlay">
