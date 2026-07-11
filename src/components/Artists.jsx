@@ -13,7 +13,6 @@ const artists = [
 
 // const scrollItems = [...artists, ...artists];
 
-
 // const scrollItems = [...artists, ...artists, ...artists, ...artists];
 const scrollItems = artists;
 

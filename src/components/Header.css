@@ -79,19 +79,22 @@
   margin-left: 20px;
 }
 
-.coming-text {
-  background: linear-gradient(45deg, #ff7722, #ff9a4d);
-  color: white;
-  padding: 10px 18px;
-  border-radius: 30px;
-  font-size: 14px;
-  font-weight: 600;
-  box-shadow: 0 4px 15px rgba(255,119,34,0.3);
-  transition: 0.3s;
+.header-app-link {
+  display: inline-block;
 }
 
-.coming-text:hover {
-  transform: translateY(-2px);
+.header-playstore-btn {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.header-app-link:hover .header-playstore-btn {
+  transform: translateY(-2px) scale(1.02);
+  filter: brightness(1.05);
 }
 
 
@@ -136,5 +139,9 @@
 
   .cta-wrapper {
     margin-top: 10px;
+  }
+
+  .header-playstore-btn {
+    width: 140px;
   }
 } 

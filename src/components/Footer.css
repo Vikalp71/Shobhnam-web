@@ -118,15 +118,23 @@
 }
 
 /* App badge */
-.coming-soon-footer {
-  background: linear-gradient(135deg, #ff7722, #ff9a4d);
+.footer-app-link {
   display: inline-block;
-  padding: 10px 20px;
-  border-radius: 30px;
   margin-top: 15px;
-  font-size: 13px;
-  font-weight: 600;
-  box-shadow: 0 5px 15px rgba(255,119,34,0.3);
+}
+
+.footer-playstore-btn {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer-app-link:hover .footer-playstore-btn {
+  transform: translateY(-3px) scale(1.03);
+  filter: brightness(1.05);
 }
 
 /* Social */

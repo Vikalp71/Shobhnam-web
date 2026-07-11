@@ -23,15 +23,15 @@ function Hero() {
 
         {/* CTA Buttons */}
         <div className="hero-buttons">
-          {/* <button className="book-btn">Book Now</button> */}
+          <button className="book-btn">Book Now</button>
 
 
-          <div className="coming-soon-badge">
+          {/* <div className="coming-soon-badge">
     App Launching Soon 🚀
-  </div>
+  </div> */}
 
-          {/* <a
-            href="https://play.google.com"
+          <a
+            href="https://play.google.com/store/apps/details?id=com.shobhnamofficial.app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,7 +40,7 @@ function Hero() {
               alt="Download App"
               className="playstore-btn"
             />
-          </a> */}
+          </a>
         </div>
 
         {/* Trust Stats */}

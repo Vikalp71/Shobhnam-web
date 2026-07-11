@@ -41,9 +41,18 @@ function Footer() {
           <p>📞 +91 9559508108</p>
           <p>📍 Kalyanpur, Kanpur, Uttar Pradesh</p>
 
-          <div className="coming-soon-footer">
-            📱 App Launching Soon
-          </div>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.shobhnamofficial.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-app-link"
+          >
+            <img
+              src="/images/playstore.png"
+              alt="Download App"
+              className="footer-playstore-btn"
+            />
+          </a>
         </div>
 
 
@@ -97,8 +106,8 @@ function Footer() {
 
           <div className="social-icons">
             <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaLinkedinIn /></a>
+            <a href="https://www.instagram.com/shobhnamofficial?igsh=MWo3d3h5Z3RsYzR5Nw==" target="_blank" rel="noreferrer"><FaInstagram /></a>
+            <a href="https://www.linkedin.com/in/shobhnam-digital-752bb2408" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
           </div>
         </div>
       </div>

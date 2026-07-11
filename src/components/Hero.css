@@ -40,6 +40,15 @@
   left: 10%;
 }
 
+.hero-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.28) 45%,
+    rgba(0, 0, 0, 0.65) 100%
+  );
+}
+
 /* Content */
 .hero-content {
   position: relative;
@@ -90,6 +99,24 @@
   align-items: center;
   gap: 18px;
   flex-wrap: wrap;
+}
+
+.hero-buttons a {
+  display: inline-block;
+}
+
+.hero-buttons a img.playstore-btn {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.hero-buttons a:hover img.playstore-btn {
+  transform: translateY(-3px) scale(1.03);
+  filter: brightness(1.05);
 }
 
 /* 🔥 Premium Button */
@@ -162,6 +189,15 @@
   .hero-buttons {
     flex-direction: column;
     gap: 12px;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .hero-buttons a img.playstore-btn {
+    width: 100%;
   }
 
   .book-btn {

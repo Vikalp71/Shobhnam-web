@@ -1,6 +1,3 @@
-
-
-
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -30,7 +27,18 @@ function Header() {
 
         {/* CTA Button */}
         <div className="cta-wrapper">
-          <span className="coming-text">📱 App Coming Soon</span>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.shobhnamofficial.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="header-app-link"
+          >
+            <img
+              src="/images/playstore.png"
+              alt="Download App"
+              className="header-playstore-btn"
+            />
+          </a>
         </div>
       </nav>
     </header>
